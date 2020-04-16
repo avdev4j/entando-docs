@@ -17,7 +17,7 @@
 == Entando Component Repository
 * https://github.com/entando/entando-docs/tree/master/docs/src/main/asciidoc/entando-6-new/digital-exchange/digital-exchange-overview.adoc[Entando Component Repository Overview, window=_blank]
 * https://github.com/entando/entando-docs/tree/master/docs/src/main/asciidoc/entando-6-new/digital-exchange/how-to-create-local-npm-registry.adoc[Create a local NPM Registry, window=_blank]
-* hhttps://github.com/entando/entando-docs/tree/master/docs/src/main/asciidoc/entando-6-new/digital-exchange/tutorials/create-digital-exchange-bundle[Tutorial: Create ECR Bundle, window=_blank]
+* https://github.com/entando/entando-docs/tree/master/docs/src/main/asciidoc/entando-6-new/digital-exchange/tutorials/create-digital-exchange-bundle[Tutorial: Create ECR Bundle, window=_blank]
 * https://github.com/entando/entando-docs/tree/master/docs/src/main/asciidoc/entando-6-new/digital-exchange/tutorials/from-blueprint-to-digital-exchange-bundle[Tutorial: From Blueprint to ECR Bundle, window=_blank]
 
 == Blueprint
