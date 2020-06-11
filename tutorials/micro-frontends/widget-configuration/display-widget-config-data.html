@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Tutorial: Display widget configuration data | Entando Developers</title>
+    <meta name="generator" content="VuePress 1.5.0">
+    <link rel="icon" href="/entando-docs/theme/favicon.png">
+    <meta name="description" content="Entando Developers">
+    <link rel="preload" href="/entando-docs/assets/css/0.styles.d61bce26.css" as="style"><link rel="preload" href="/entando-docs/assets/js/app.699911fe.js" as="script"><link rel="preload" href="/entando-docs/assets/js/2.20be5ddd.js" as="script"><link rel="preload" href="/entando-docs/assets/js/25.9af4e9bf.js" as="script"><link rel="prefetch" href="/entando-docs/assets/js/10.fc1c2696.js"><link rel="prefetch" href="/entando-docs/assets/js/11.fed243a8.js"><link rel="prefetch" href="/entando-docs/assets/js/12.a52a4a49.js"><link rel="prefetch" href="/entando-docs/assets/js/13.f7e37e18.js"><link rel="prefetch" href="/entando-docs/assets/js/14.1facb0fe.js"><link rel="prefetch" href="/entando-docs/assets/js/15.beea463d.js"><link rel="prefetch" href="/entando-docs/assets/js/16.27b6fb66.js"><link rel="prefetch" href="/entando-docs/assets/js/17.5c1f02c3.js"><link rel="prefetch" href="/entando-docs/assets/js/18.693ab459.js"><link rel="prefetch" href="/entando-docs/assets/js/19.316a022d.js"><link rel="prefetch" href="/entando-docs/assets/js/20.87cbf0a2.js"><link rel="prefetch" href="/entando-docs/assets/js/21.1f184ccc.js"><link rel="prefetch" href="/entando-docs/assets/js/22.7e0d3352.js"><link rel="prefetch" href="/entando-docs/assets/js/23.948e2e82.js"><link rel="prefetch" href="/entando-docs/assets/js/24.45236b03.js"><link rel="prefetch" href="/entando-docs/assets/js/26.7ddba555.js"><link rel="prefetch" href="/entando-docs/assets/js/27.fb48eb43.js"><link rel="prefetch" href="/entando-docs/assets/js/28.c4e29a43.js"><link rel="prefetch" href="/entando-docs/assets/js/29.6c11bc69.js"><link rel="prefetch" href="/entando-docs/assets/js/3.4c57d63b.js"><link rel="prefetch" href="/entando-docs/assets/js/30.5f603fb1.js"><link rel="prefetch" href="/entando-docs/assets/js/31.50f02481.js"><link rel="prefetch" href="/entando-docs/assets/js/32.806d8496.js"><link rel="prefetch" href="/entando-docs/assets/js/33.291ce087.js"><link rel="prefetch" href="/entando-docs/assets/js/34.04e6f667.js"><link rel="prefetch" href="/entando-docs/assets/js/35.6ec3720b.js"><link rel="prefetch" href="/entando-docs/assets/js/36.af76f45e.js"><link rel="prefetch" href="/entando-docs/assets/js/37.3ffca4f2.js"><link rel="prefetch" href="/entando-docs/assets/js/38.19a0b145.js"><link rel="prefetch" href="/entando-docs/assets/js/39.f4c4ea71.js"><link rel="prefetch" href="/entando-docs/assets/js/4.c04d82f4.js"><link rel="prefetch" href="/entando-docs/assets/js/40.c2fbeb11.js"><link rel="prefetch" href="/entando-docs/assets/js/41.ad6cfeb7.js"><link rel="prefetch" href="/entando-docs/assets/js/42.bf18d948.js"><link rel="prefetch" href="/entando-docs/assets/js/43.e3036f01.js"><link rel="prefetch" href="/entando-docs/assets/js/44.88f8f2be.js"><link rel="prefetch" href="/entando-docs/assets/js/45.b5d70730.js"><link rel="prefetch" href="/entando-docs/assets/js/46.ff1fb149.js"><link rel="prefetch" href="/entando-docs/assets/js/47.c0744e3b.js"><link rel="prefetch" href="/entando-docs/assets/js/48.5aa593aa.js"><link rel="prefetch" href="/entando-docs/assets/js/49.a305056f.js"><link rel="prefetch" href="/entando-docs/assets/js/5.6cc0e0ad.js"><link rel="prefetch" href="/entando-docs/assets/js/50.811c5034.js"><link rel="prefetch" href="/entando-docs/assets/js/51.a861d67b.js"><link rel="prefetch" href="/entando-docs/assets/js/52.dbc2b248.js"><link rel="prefetch" href="/entando-docs/assets/js/53.42cced3e.js"><link rel="prefetch" href="/entando-docs/assets/js/54.f338b27d.js"><link rel="prefetch" href="/entando-docs/assets/js/55.6ff0823d.js"><link rel="prefetch" href="/entando-docs/assets/js/56.591492c3.js"><link rel="prefetch" href="/entando-docs/assets/js/57.8bded821.js"><link rel="prefetch" href="/entando-docs/assets/js/58.47fea5e1.js"><link rel="prefetch" href="/entando-docs/assets/js/59.6b7fc38e.js"><link rel="prefetch" href="/entando-docs/assets/js/6.0445bbc0.js"><link rel="prefetch" href="/entando-docs/assets/js/60.c3b2ad7e.js"><link rel="prefetch" href="/entando-docs/assets/js/61.18dcedad.js"><link rel="prefetch" href="/entando-docs/assets/js/62.2e62a119.js"><link rel="prefetch" href="/entando-docs/assets/js/63.4b08a578.js"><link rel="prefetch" href="/entando-docs/assets/js/64.0ec4e7fa.js"><link rel="prefetch" href="/entando-docs/assets/js/65.e6ca28f7.js"><link rel="prefetch" href="/entando-docs/assets/js/66.23881f9a.js"><link rel="prefetch" href="/entando-docs/assets/js/67.b55bc222.js"><link rel="prefetch" href="/entando-docs/assets/js/68.5b50e5c3.js"><link rel="prefetch" href="/entando-docs/assets/js/69.6ab2c6f8.js"><link rel="prefetch" href="/entando-docs/assets/js/7.f68afba5.js"><link rel="prefetch" href="/entando-docs/assets/js/70.9bceab9a.js"><link rel="prefetch" href="/entando-docs/assets/js/71.b9affcd7.js"><link rel="prefetch" href="/entando-docs/assets/js/72.3a0fcad6.js"><link rel="prefetch" href="/entando-docs/assets/js/73.b10d7a36.js"><link rel="prefetch" href="/entando-docs/assets/js/74.7dc9a8b2.js"><link rel="prefetch" href="/entando-docs/assets/js/75.a701c86c.js"><link rel="prefetch" href="/entando-docs/assets/js/76.ead426a8.js"><link rel="prefetch" href="/entando-docs/assets/js/77.a5e46228.js"><link rel="prefetch" href="/entando-docs/assets/js/8.d4e66ac4.js"><link rel="prefetch" href="/entando-docs/assets/js/9.25aa10de.js">
+    <link rel="stylesheet" href="/entando-docs/assets/css/0.styles.d61bce26.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/entando-docs/" class="home-link router-link-active"><img src="/entando-docs/theme/logo.svg" alt="Entando Developers" class="logo"> <span class="site-name can-hide">Entando Developers</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/entando-docs/docs/" class="nav-link">
+  Docs
+</a></div><div class="nav-item"><a href="/entando-docs/tutorials/" class="nav-link router-link-active">
+  Tutorials
+</a></div><div class="nav-item"><a href="https://forum.entando.org" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Forum
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://www.entando.com/page/en/modern_applications_blog" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Blog
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="http://www.entando.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Entando.com
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <a href="https://github.com/entando/entando-docs" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/entando-docs/docs/" class="nav-link">
+  Docs
+</a></div><div class="nav-item"><a href="/entando-docs/tutorials/" class="nav-link router-link-active">
+  Tutorials
+</a></div><div class="nav-item"><a href="https://forum.entando.org" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Forum
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://www.entando.com/page/en/modern_applications_blog" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Blog
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="http://www.entando.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Entando.com
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <a href="https://github.com/entando/entando-docs" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>Micro Frontends</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/entando-docs/tutorials/micro-frontends/react.html" class="sidebar-link">React</a></li><li><a href="/entando-docs/tutorials/micro-frontends/angular.html" class="sidebar-link">Angular</a></li><li><a href="/entando-docs/tutorials/micro-frontends/micro-frontend-communication/" class="sidebar-link">Events</a></li><li><a href="/entando-docs/tutorials/micro-frontends/angular-and-react-communication/" class="sidebar-link">Angular to React</a></li><li><a href="/entando-docs/tutorials/micro-frontends/widget-configuration/" class="sidebar-link">Config</a></li><li><a href="/entando-docs/tutorials/micro-frontends/generate-micro-frontends-from-a-database-entity/" class="sidebar-link">Blueprint</a></li><li><a href="/entando-docs/tutorials/micro-frontends/authentication/" class="sidebar-link">Authentication</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Microservice Applications</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Content Management</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Component Repository</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Extend the Platform</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Configuration and Operations</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="tutorial-display-widget-configuration-data"><a href="#tutorial-display-widget-configuration-data" class="header-anchor">#</a> Tutorial: Display widget configuration data</h1> <p>So, we already created a react micro frontend widget and configuration
+screen to customize a <em>name</em> field.</p> <p>In this tutorial we will display that field in our micro frontend
+widget.</p> <h2 id="add-an-attribute-to-the-custom-element"><a href="#add-an-attribute-to-the-custom-element" class="header-anchor">#</a> Add an attribute to the custom element</h2> <p>Edit <code>WidgetElement</code> to add attribute handling to the custom element,
+and make re-render our app when an attribute changes. Now, the <em>name</em>
+attribute is being read from the custom element and passed as a prop to
+the react root component (<em>App</em>).</p> <div class="language- extra-class"><pre><code>import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+
+const ATTRIBUTES = {
+  name: 'name',
+};
+
+class WidgetElement extends HTMLElement {
+
+  static get observedAttributes() {
+    return Object.values(ATTRIBUTES);
+  }
+
+  attributeChangedCallback(name, oldValue, newValue) {
+    if (!Object.values(ATTRIBUTES).includes(name)) {
+      throw new Error(`Untracked changed attribute: ${name}`);
+    }
+    if (this.mountPoint &amp;&amp; newValue !== oldValue) {
+      this.render();
+    }
+  }
+
+  connectedCallback() {
+    this.mountPoint = document.createElement('div');
+    this.appendChild(this.mountPoint);
+    this.render();
+  }
+
+  render() {
+    const name = this.getAttribute(ATTRIBUTES.name);
+    ReactDOM.render(&lt;App name={name} /&gt;, this.mountPoint);
+  }
+}
+
+customElements.define('my-widget', WidgetElement);
+
+export default WidgetElement;
+</code></pre></div><blockquote><p><strong>Note</strong></p> <p><code>attributeChangedCallback</code> is also a custom elements lifecycle hook
+method.</p></blockquote> <h2 id="make-react-component-handle-the-input"><a href="#make-react-component-handle-the-input" class="header-anchor">#</a> Make react component handle the input</h2> <p>Edit the <code>App</code> component now, to make it display the <code>name</code> prop.</p> <div class="language- extra-class"><pre><code>import React from 'react';
+import './App.css';
+
+function App({name}) {
+  return (
+    &lt;div className=&quot;App&quot;&gt;
+      &lt;header className=&quot;App-header&quot;&gt;
+        &lt;p&gt;
+          Hello, {name}!
+        &lt;/p&gt;
+      &lt;/header&gt;
+    &lt;/div&gt;
+  );
+}
+
+export default App;
+</code></pre></div><p>Now, to ensure our custom element is working we can edit
+<code>public/index.html</code> and set a value for the <em>name</em> attribute of the
+custom element.</p> <div class="language- extra-class"><pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot; /&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;%PUBLIC_URL%/favicon.ico&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+    &lt;title&gt;React App&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;my-widget name=&quot;Marco&quot;/&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre></div><p>After page reload, you should be able to display a simple &quot;Hello,
+Marco!&quot; message.</p> <h2 id="rebuild-the-widget"><a href="#rebuild-the-widget" class="header-anchor">#</a> Rebuild the widget</h2> <p>From the react project root, type:</p> <p><code>npm run build</code></p> <p>and the <code>build/static</code> directory will be (re)generated. Copy it again
+into the Entando 6 instance under
+<code>src\main\webapp\resources\static\my-widget</code>, then rename</p> <ul><li><p>a file like <code>js/runtime~main.c7dcdf0b.js</code> to <code>js/runtime.js</code>
+(bootstrapping logic)</p></li> <li><p>a file like <code>js/2.230b21ef.chunk.js</code> to <code>js/vendor.js</code> (third-party
+libraries)</p></li> <li><p>a file like <code>js/main.1fd3965a.chunk.js</code> to <code>js/main.js</code> (app)</p></li> <li><p>a file like <code>css/main.d1b05096.chunk.js</code> to <code>css/main.css</code>
+(stylesheet)</p></li></ul> <blockquote><p><strong>Note</strong></p> <p>you could keep the original names in order to avoid potential caching
+issues, but then you will have to update the <em>Custom UI</em> field in the
+App Builder widget screen every time a new version of the widget is
+deployed.</p></blockquote> <p>If the application server you’re running does not have hot deploy
+enabled, restart it.</p> <h2 id="update-the-entando-6-widget-in-app-builder"><a href="#update-the-entando-6-widget-in-app-builder" class="header-anchor">#</a> Update the Entando 6 widget in App Builder</h2> <p>Open the Entando App Builder, go to UX Patterns → Widgets, find the
+widget <em>My Widget</em> and click to edit it.</p> <p>You’ll see a screen like this one</p> <p><img src="/entando-docs/assets/img/edit-widget-screen-2.798d0990.png" alt="Edit widget screen"></p> <p>Update the <em>Custom UI</em> field from:</p> <div class="language- extra-class"><pre><code>&lt;#assign wp=JspTaglibs[ &quot;/aps-core&quot;]&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;&lt;@wp.resourceURL /&gt;static/my-widget/static/css/main.css&quot;&gt;
+&lt;script async src=&quot;&lt;@wp.resourceURL /&gt;static/my-widget/static/js/runtime.js&quot;&gt;&lt;/script&gt;
+&lt;script async src=&quot;&lt;@wp.resourceURL /&gt;static/my-widget/static/js/vendor.js&quot;&gt;&lt;/script&gt;
+&lt;script async src=&quot;&lt;@wp.resourceURL /&gt;static/my-widget/static/js/main.js&quot;&gt;&lt;/script&gt;
+&lt;my-widget /&gt;
+</code></pre></div><p>to</p> <div class="language- extra-class"><pre><code>&lt;#assign wp=JspTaglibs[ &quot;/aps-core&quot;]&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;&lt;@wp.resourceURL /&gt;static/my-widget/static/css/main.css&quot;&gt;
+&lt;script async src=&quot;&lt;@wp.resourceURL /&gt;static/my-widget/static/js/runtime.js&quot;&gt;&lt;/script&gt;
+&lt;script async src=&quot;&lt;@wp.resourceURL /&gt;static/my-widget/static/js/vendor.js&quot;&gt;&lt;/script&gt;
+&lt;script async src=&quot;&lt;@wp.resourceURL /&gt;static/my-widget/static/js/main.js&quot;&gt;&lt;/script&gt;
+&lt;@wp.currentWidget param=&quot;config&quot; configParam=&quot;name&quot; var=&quot;configName&quot; /&gt;
+&lt;my-widget name=&quot;${configName}&quot; /&gt;
+</code></pre></div><p>We basically added a JSTL tag to extract a field (under <code>configParam</code>)
+from the config field of the current widget and put it in a <code>configName</code>
+variable, that we pass to the custom element.</p> <p>Save the widget and reload the page that contains the widget: you’ll see
+&quot;Hello, Marco!&quot; as expected.</p></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/entando/entando-docs/edit/master/vuepress/docs/tutorials/micro-frontends/widget-configuration/display-widget-config-data.md" target="_blank" rel="noopener noreferrer">Edit this page on GitHub</a> <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></div> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">5/26/2020, 3:47:03 PM</span></div></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/entando-docs/assets/js/app.699911fe.js" defer></script><script src="/entando-docs/assets/js/2.20be5ddd.js" defer></script><script src="/entando-docs/assets/js/25.9af4e9bf.js" defer></script>
+  </body>
+</html>
