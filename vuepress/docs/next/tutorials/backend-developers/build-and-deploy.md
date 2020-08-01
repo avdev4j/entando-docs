@@ -56,14 +56,20 @@ f1b5933fe4b5: Pushed
 
 3. Create a new git repository and name it `my-bundle` (or a name of your choice)
 
-4. Clone the repository created in the prior step to a location of your choice (not inside your microservice) `git clone <url of your repo>`
-
-5. Copy the contents of the `bundle/` folder from your microservice into your repository
-
 > **Important**
 > The file descriptor.yaml should be at the top of your repository
 
 6. `cd` into your cloned bundle repository on the command line
+
+7. Add the /bundle/ folder to the .gitignore file of your microservice project and initialize a new and different git repository for the bundle itself. From the top of your microservices project run these commands.
+
+```
+echo bundle >> .gitignore
+cd bundle/
+git init
+git remote add origin https://your/remote/repository.git
+git push -u origin master
+```  
 
 6. Add the files to git `git add .`
 
